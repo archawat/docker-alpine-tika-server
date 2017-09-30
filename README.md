@@ -1,2 +1,6 @@
 # dockerfile-tika-server
-Dockerfile for Tika-Server
+Running on Alpine Linux
+
+Usage
+> docker build -t tika-server .
+> docker run -itd -p 9998:9998 --name tika-server --restart always tika-server
